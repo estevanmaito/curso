@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <title>Projeto Orgânico CSS</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/organico.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+  <nav class="linha nav">
+    <div class="nav hamburguer">
+      <img src="img/menu.png" width="25" height="25" alt="Ícone menu">
+    </div>
+    <div class="quatro colunas">
+      <a href="#" class="nav logo">
+        <img src="img/logo.png" width="150" height="55">
+      </a>
+    </div>
+    <div class="oito colunas nav menu">
+      <a href="#destaques" class="nav link">Destaques</a>
+      <a href="#planos" class="nav link">Planos</a>
+      <a href="#equipe" class="nav link">Equipe</a>
+    </div>
+  </nav>
+</div>
+
+<header class="header">
+  <div class="container">
+    <div class="linha">
+      <div class="oito colunas">
+        <h1 class="header titulo">O melhor app de todos os tempos</h1>
+      </div>
+      <div class="quatro colunas">
+        <p class="header texto">Cadastre-se para ser o primeiro a fazer o download!</p>
+        <form>
+          <div class="linha">
+            <div class="doze colunas">
+              <input type="text" placeholder="Nome" class="u-width-100">
+            </div>
+          </div>
+          <div class="linha">
+            <div class="doze colunas">
+              <input type="email" placeholder="Email" class="u-width-100">
+            </div>
+          </div>
+          <div class="linha">
+            <div class="doze colunas">
+              <button class="botao destacado u-width-100">Enviar</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <section class="linha secao" id="destaques">
+    <div class="quatro colunas destaque">
+      <img src="img/pilas.png" width="52">
+      <h2>Simples</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam tenetur delectus modi reiciendis natus maxime dolore provident fugiat?</p>
+    </div>
+    <div class="quatro colunas destaque">
+      <img src="img/foguete.png" width="52">
+      <h2>Rápido</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias mollitia qui similique nisi quod perspiciatis hic recusandae reiciendis.</p>
+    </div>
+    <div class="quatro colunas destaque">
+      <img src="img/cadeado.png" width="52">
+      <h2>Seguro</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus repellendus quos perferendis deserunt, aperiam autem, itaque mollitia.</p>
+    </div>
+  </section>
+  <section class="linha secao">
+    <div class="doze colunas">
+      <h2>Galeria</h2>
+    </div>
+
+    <div class="tres colunas">
+      <img src="img/galeria1.jpg" class="u-width-100" alt="Calendário do aplicativo">
+    </div>
+    <div class="tres colunas">
+      <img src="img/galeria2.jpg" class="u-width-100" alt="Análise do aplicativo">
+    </div>
+    <div class="tres colunas">
+      <img src="img/galeria3.jpg" class="u-width-100" alt="Mapa do aplicativo">
+    </div>
+    <div class="tres colunas">
+      <img src="img/galeria4.jpg" class="u-width-100" alt="Tela inicial do aplicativo">
+    </div>
+  </section>
+</div>
+
+<div class="planos">
+  <div class="container">
+    <section class="linha secao" id="planos">
+      <div class="doze colunas">
+        <h2>Planos</h2>
+      </div>
+      <div class="quatro colunas plano">
+        <div class="limitador">
+          <div class="plano cabecalho">
+            <p class="plano categoria">Pessoal</p>
+            <h4 class="plano valor">R$ <span class="plano valor grande">9</span>/mês</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+          <table class="u-width-100">
+            <tbody>
+              <tr>
+                <td><strong>10k</strong> requisições mensais</td>
+              </tr>
+              <tr>
+                <td>Suporte técnico <strong>8am-6pm</strong></td>
+              </tr>
+              <tr>
+                <td>Acesso API <strong>pública</strong></td>
+              </tr>
+            </tbody>
+          </table>
+          <button class="botao destacado u-width-100">Escolher conta</button>
+        </div>
+      </div>
+      <div class="quatro colunas plano">
+        <div class="limitador">
+          <div class="plano cabecalho">
+            <p class="plano categoria">Empresarial</p>
+            <h4 class="plano valor">R$ <span class="plano valor grande">49</span>/mês</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+          <table class="u-width-100">
+            <tbody>
+              <tr>
+                <td><strong>100k</strong> requisições mensais</td>
+              </tr>
+              <tr>
+                <td>Suporte técnico <strong>8am-6pm</strong></td>
+              </tr>
+              <tr>
+                <td>Acesso API <strong>pública</strong></td>
+              </tr>
+            </tbody>
+          </table>
+          <button class="botao destacado u-width-100">Escolher conta</button>
+        </div>
+      </div>
+      <div class="quatro colunas plano">
+        <div class="limitador">
+          <div class="plano cabecalho">
+            <p class="plano categoria">Corporativo</p>
+            <h4 class="plano valor">R$ <span class="plano valor grande">99</span>/mês</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+          <table class="u-width-100">
+            <tbody>
+              <tr>
+                <td>Requisições mensais <strong>ilimitadas</strong></td>
+              </tr>
+              <tr>
+                <td>Suporte técnico <strong>24/7</strong></td>
+              </tr>
+              <tr>
+                <td>Acesso API <strong>privada e pública</strong></td>
+              </tr>
+            </tbody>
+          </table>
+          <button class="botao destacado u-width-100">Escolher conta</button>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+  <div class="container">
+    <section class="linha secao" id="equipe">
+      <div class="doze colunas">
+        <h2>Equipe</h2>
+      </div>
+      <div class="tres colunas">
+        <img src="img/equipe4.jpg" class="u-width-100">
+        <h5 class="equipe titulo">Heimdall<br><small>CEO</small></h5>
+      </div>
+      <div class="tres colunas">
+        <img src="img/equipe2.jpg" class="u-width-100">
+        <h5 class="equipe titulo">Cristóvão Cabral<br><small>CTO</small></h5>
+      </div>
+      <div class="tres colunas">
+        <img src="img/equipe3.jpg" class="u-width-100">
+        <h5 class="equipe titulo">Jurema Pessoa<br><small>CMO</small></h5>
+      </div>
+      <div class="tres colunas">
+        <img src="img/equipe1.jpg" class="u-width-100">
+        <h5 class="equipe titulo">Toninho do Quiabo<br><small>Desenvolvedor</small></h5>
+      </div>
+    </section>
+  </div>
+
+
+<footer class="rodape">
+  <div class="container">
+    <div class="linha">
+      <div class="seis colunas">
+        <h4 class="rodape titulo">Bestapp</h4>
+        <p class="rodape texto">O melhor app de todos os tempos</p>
+      </div>
+      <div class="tres colunas">
+        <h5 class="rodape titulo">Navegue</h5>
+        <a class="rodape texto" href="#destaques">Destaques</a>
+        <a class="rodape texto" href="#planos">Planos</a>
+        <a class="rodape texto" href="#equipe">Equipe</a>
+      </div>
+      <div class="tres colunas">
+        <h5 class="rodape titulo">Siga-nos</h5>
+        <a class="rodape texto" href="#">Facebook</a>
+        <a class="rodape texto" href="#">Twitter</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  window.addEventListener('DOMContentLoaded', function(e) {
+    document.querySelector('.nav.hamburguer')
+      .addEventListener('click', function() {
+        document.querySelector('.nav.menu').classList.toggle('aberto');
+      }, false);
+  }, false);
+</script>
+</body>
+</html>

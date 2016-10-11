@@ -1,0 +1,164 @@
+nav.nav {
+  position: relative;
+}
+
+.nav.hamburguer {
+  position: absolute;
+  padding: 1rem;
+  top: 1.5rem;
+  right: 1rem;
+  cursor: pointer;
+}
+
+.nav.logo {
+  display: inline-block;
+  padding: 1rem 0 .3rem;
+}
+
+.nav.link {
+  display: inline-block;
+  color:  #555;
+  padding: 2.5rem;
+  padding-left: 0;
+  text-decoration: none;
+}
+
+.nav.link:visited {
+  color:  #555;
+}
+
+.nav.menu {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: column nowrap;
+  max-height: 0;
+  overflow: hidden;
+  transition: all ease-in-out .2s;
+}
+
+.nav.menu.aberto {
+  max-height: 30rem;
+}
+
+@media (min-width: 750px) {
+  .nav.link {
+    padding-left: 2.5rem;
+  }
+
+  .nav.menu {
+    justify-content: flex-end;
+    flex-flow: row wrap;
+    max-height: 20rem;
+  }
+
+  .nav.hamburguer {
+    display: none;
+  }
+}
+
+header.header {
+  background-image: url('../img/ceu.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+}
+
+.header.titulo,
+.header.texto {
+  color: #fff;
+}
+
+.destaque {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.destaque h2 {
+  margin: 1rem 0;
+}
+
+.secao {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 750px) {
+  .secao {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+  }
+}
+
+.planos {
+  background-image: url('../img/estrelas.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 1rem;
+}
+
+.planos h2 {
+  color: #fff;
+}
+
+.limitador {
+  background-color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+
+.plano {
+  margin-bottom: 4rem;
+}
+
+@media (min-width: 750px) {
+  .plano {
+    margin-bottom: 0;
+  }
+}
+
+.plano.cabecalho {
+  text-align: center;
+}
+
+.plano.categoria {
+  color: #bbb;
+  font-weight: bold;
+  margin: 0;
+}
+
+.plano.valor {
+  margin: 0;
+}
+
+.plano.valor.grande {
+  font-size: 7rem;
+}
+
+.equipe.titulo {
+  margin-top: 0;
+}
+
+footer.rodape {
+  padding: 7rem 0;
+  background: #555;
+  color: #b1b1b1;
+}
+
+.rodape.titulo {
+  color: #fff;
+  margin: 1rem 0;
+}
+
+.rodape.texto,
+a.rodape.texto {
+  font-size: .9em;
+  display: block;
+  color: #b1b1b1;
+  text-decoration: none;
+}
